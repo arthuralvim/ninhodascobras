@@ -14,20 +14,65 @@ section {
 }
 
 section#cabecalho {
-    background-color: #f90;
+    background-color: $black;
+    color: $white;
 }
 
 section#video {
-    background-color: #078;
+    background-color: $white;
 }
 
 section#info {
-    background-color: #990;
+    background-color: $red;
+    color: $white;
 }
 
 section#rodape {
     background-color: #ccc;
 }
 
-.green { color: green }
-.large{font-size: 32px; }
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.txt-gray {
+    color: $gray;
+}
+
+.txt-black {
+    color: $black;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.ion-2x {
+    font-size: 20px;
+}
+
+.ion-3x {
+    font-size: 30px;
+}
+
+.ion-4x {
+    font-size: 40px;
+}
+
+.ion-5x {
+    font-size: 50px;
+}
+
+.ion-6x {
+    font-size: 60px;
+}
+
+.progress {
+    margin-top: 15px;
+    height: 40px !important;
+}
