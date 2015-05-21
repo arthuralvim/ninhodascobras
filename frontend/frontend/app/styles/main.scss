@@ -8,3 +8,26 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 @import "compass/css3";
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100,200,300,500,600,700);
+
+section {
+    min-height: 500px;
+}
+
+section#cabecalho {
+    background-color: #f90;
+}
+
+section#video {
+    background-color: #078;
+}
+
+section#info {
+    background-color: #990;
+}
+
+section#rodape {
+    background-color: #ccc;
+}
+
+.green { color: green }
+.large{font-size: 32px; }
