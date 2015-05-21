@@ -56,7 +56,6 @@ docs/_build/
 # PyBuilder
 target/
 
-
 # Frontend app
 
 !frontend/app/404.html
