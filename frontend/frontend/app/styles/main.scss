@@ -10,26 +10,16 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100,200,300,500,600,700);
 
 section {
-    min-height: 500px;
+    padding: 30px;
 }
 
-div#cabecalho {
-    background-color: $black;
+section#cabecalho {
     color: $white;
     min-height: 100px;
 }
 
-div#video {
-    background-color: $white;
-}
-
-section#info {
-    background-color: $red;
-    color: $white;
-}
-
-section#rodape {
-    background-color: #ccc;
+section#atualizacao-1, section#atualizacao-2 {
+    min-height: 300px;
 }
 
 .col-centered{
@@ -55,6 +45,10 @@ section#rodape {
 
 .bg-black {
     background-color: $black;
+}
+
+.bg-white {
+    background-color: $white;
 }
 
 .ion-2x {
