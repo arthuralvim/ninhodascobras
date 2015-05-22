@@ -13,12 +13,13 @@ section {
     min-height: 500px;
 }
 
-section#cabecalho {
+div#cabecalho {
     background-color: $black;
     color: $white;
+    min-height: 100px;
 }
 
-section#video {
+div#video {
     background-color: $white;
 }
 
@@ -46,6 +47,10 @@ section#rodape {
 
 .bg-gray {
     background-color: $gray;
+}
+
+.bg-red {
+    background-color: $red;
 }
 
 .bg-black {
